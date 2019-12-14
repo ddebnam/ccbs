@@ -7,16 +7,92 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   
+    
+   <!-- Additional CSS must be placed after Bootstrap CSS -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+   <link rel="stylesheet" href="css/styles.css" />
+   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
 
     <title>Cupcakes By Shyla</title>
   </head>
   <body>
-    <h1>Hello, world! Cupcakes Coming Soon!</h1>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="muffin.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Cupcakes
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Menu</a>
+          <a class="nav-item nav-link" href="#">About</a>
+          <a class="nav-item nav-link disabled" href="#">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="cupcake2.jpg" width= '200' height="300" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="cupcake3.jpg" width= '200' height="300" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="cupcake2.jpg" width= '200' height="300" alt="Third slide">
+      </div>
+    </div>
+  </div>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis feugiat velit nec congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean nec ultricies quam. Aliquam erat volutpat. Quisque a tempus enim, sit amet condimentum nunc. Etiam quis semper neque, non efficitur tellus. Aenean sit amet neque et neque vulputate consequat. Donec lorem justo, vulputate eu magna et, rhoncus laoreet felis. Donec bibendum pulvinar libero porttitor molestie.
+
+Aenean vel luctus augue. Vestibulum tincidunt lorem finibus quam bibendum scelerisque. Vivamus pulvinar eleifend lacus vitae suscipit. Nullam sapien lorem, dictum et eleifend sit amet, suscipit sit amet mauris. In ac diam ac ligula dictum rutrum. Sed ut tristique enim. Nullam pulvinar vestibulum arcu, at ultricies lacus ornare eleifend. Praesent elementum ex ac nunc sagittis varius.
+
+Curabitur sed diam eget nunc luctus lobortis. Nunc vel elit malesuada, maximus neque quis, rutrum lacus. Quisque sed sollicitudin diam. Vivamus et diam sollicitudin, faucibus felis eget, pharetra neque. Vestibulum euismod ex massa, eu varius nibh facilisis sit amet. Duis ac dapibus purus. Fusce pellentesque lacus nec neque finibus mollis. Etiam et elementum metus, vitae blandit ligula. Suspendisse auctor ipsum augue, eget pharetra felis maximus vitae.
+
+Morbi non posuere mauris. Phasellus imperdiet faucibus mi eget euismod. Fusce iaculis dolor nisl, in pharetra sem luctus id. Vestibulum non semper lacus. Ut ac bibendum tortor. Phasellus blandit dui est, ac ullamcorper velit feugiat quis. Aliquam vulputate suscipit dolor, nec condimentum orci fringilla ut. Aenean molestie ac lectus et congue.
+
+Proin lobortis vel nisi in malesuada. Curabitur sed leo iaculis, tempus dui a, ornare ante. Cras at tortor feugiat, sagittis sapien mattis, varius sapien. Nunc ac ex eros. Mauris interdum, ante non hendrerit vulputate, magna leo lacinia erat, consectetur malesuada magna lectus vitae turpis. Aenean varius venenatis neque ut interdum. Phasellus eu nibh sodales nisl sagittis vestibulum vitae a massa. Donec imperdiet diam sed dignissim fermentum. Aliquam semper, est ut fermentum finibus, mi purus porttitor metus, molestie fringilla sem tellus id elit. Fusce ligula nibh, dignissim et ligula ut, tempus mollis libero.
+  </p>
+  <footer class="site-footer bg-dark">
+    <div class="container">
+        <div class="row">             
+            <div class="col-4 col-sm-2 offset-1">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Sites</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-5 text-center">
+                <h5>Social</h5>
+        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+            </div>
+            <div class="col-sm-4 text-center">
+                <a role="button" class="btn btn-link" href="tel:+18045551212"><i class="fa fa-phone"></i> 1-804-555-1234</a><br />
+                <a role="button" class="btn btn-link" href="mailto:shyla@cupcakesbyshyla.com"><i class="fa fa-envelope-o"></i> shyla@cupcakesbyshyla.com</a>
+            </div>               
+       </div>
+    </div>
+</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="/js/scripts.js"></script>
   </body>
 </html>
